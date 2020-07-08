@@ -5,7 +5,7 @@ class SessionsController < ApplicationController
   end
 
   def create
-    byebug  
+    # byebug  
     if session[:name] = params[:name]
       redirect_to '/'
     elsif session[:name] == nil && session[:name] == []
